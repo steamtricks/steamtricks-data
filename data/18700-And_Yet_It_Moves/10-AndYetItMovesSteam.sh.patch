@@ -1,0 +1,13 @@
+diff --git a/AndYetItMovesSteam.sh b/AndYetItMovesSteam.sh
+index 2009a37..51c2b45 100755
+--- a/AndYetItMovesSteam.sh
++++ b/AndYetItMovesSteam.sh
+@@ -5,7 +5,7 @@
+ ### Enjoy! 
+ ###  webs
+ 
+-ayim_dir="$(dirname "$(readlink -f ${BASH_SOURCE[0]})")"
++ayim_dir="$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")"
+ rootdir=$ayim_dir
+ libdir="lib"
+ bin=lib/AndYetItMoves
