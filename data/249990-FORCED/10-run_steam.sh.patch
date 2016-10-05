@@ -1,0 +1,13 @@
+diff --git a/run_steam.sh b/run_steam.sh
+index 016ae3b..92ba735 100755
+--- a/run_steam.sh
++++ b/run_steam.sh
+@@ -4,7 +4,7 @@
+ export LANG=C 
+ 
+ if [ `arch` == "x86_64" ]; then
+-    ./FORCED.x86 $@
++    ./FORCED.x86_64 $@
+ else
+     ./FORCED.x86 $@
+ fi
