@@ -1,0 +1,8 @@
+diff --git a/Polynomial64 b/Polynomial64
+index 64f2054..84b227f 100755
+--- a/Polynomial64
++++ b/Polynomial64
+@@ -1,2 +1,2 @@
+ #!/bin/sh
+-LD_LIBRARY_PATH="./bin/lib64:$LD_LIBRARY_PATH"  ./bin/Polynomial64 "$@"
++./bin/Polynomial64 "$@"
