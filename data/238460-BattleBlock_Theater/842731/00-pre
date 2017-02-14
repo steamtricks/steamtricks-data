@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+BSPATCH="$(dirname $0)/mesa.bspatch"
+
+if [ -f BattleBlockTheater ] ; then
+  bspatch BattleBlockTheater BattleBlockTheater_patched "$BSPATCH"
+  mv BattleBlockTheater_patched BattleBlockTheater
+  chmod +x BattleBlockTheater
+fi
