@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sed -i '2iexport LD_PRELOAD="/lib/libcrypto.so.1.0.0:/lib/libssl.so.1.0.0:$LD_PRELOAD"' "$1"
