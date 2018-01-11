@@ -1,0 +1,3 @@
+#!/bin/bash
+
+force_system_openssl CompanyOfHeroes2
